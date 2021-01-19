@@ -1,0 +1,37 @@
+{
+  "name": "str-ts-playground",
+  "version": "0.0.1",
+  "description": "Basic setup for TypeScript projects.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/serkanyersen/snake.git"
+  },
+  "keywords": [
+    "snake"
+  ],
+  "author": "https://nettuts.hu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://nettuts.hu"
+  },
+  "homepage": "https://nettuts.hu",
+  "dependencies": {},
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^3.9.7",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1"
+  }
+}
